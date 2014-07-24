@@ -1,0 +1,1 @@
+These are sample files for a tech talk on Patterns

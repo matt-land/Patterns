@@ -48,7 +48,7 @@ class myClass
 
     public function __construct(MyUser $user)
     {
-        if ($user->sessionTime() > $this->getSetting(user::SESSION_TIME_SETTING)) {
+        if ($user->sessionTime() > $this->getSetting(myUser::SESSION_TIME_SETTING)) {
             $user->sessionDestroy();
         }
     }
